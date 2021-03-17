@@ -26,9 +26,14 @@ Utilisation Vagrant:
 Vous devriez avoir des flags verts vous indiquant que les 3 VM sont fonctionnelles.
 éffectuez une connection SSH à l'une des VM:
 
-    $ vagrant ssh apach
+    $ sudo vagrant ssh apach
+ 
+ 
+Vous êtes désormais sur le terminal de la machine apach en tant qu'utilisateur vagrant.    
 
-                                      ------
+```
+
+```
 
 Troobleshooting:
 
