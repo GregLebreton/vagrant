@@ -1,10 +1,9 @@
-                                          ### VAGRANT ###
+                                   ### VAGRANT ###
                                           
   
  prérequis: 
     
-    - Virtualbox
-    - 
+    - Virtualbox ou VMWare
   
 installation Vagrant:   
 
