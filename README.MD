@@ -3,7 +3,7 @@
   
  prérequis: 
     
-    - Virtualbox ou VMWare
+    - Virtualbox 6.0 ou VMWare
   
 installation Vagrant:   
 
