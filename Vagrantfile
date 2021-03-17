@@ -32,7 +32,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       
   end
 
-  # 
+  # Wordpress
   config.vm.define "wordpress" do |apach|
     apach.vm.hostname = "wordpress.dev"
      # static ip address
