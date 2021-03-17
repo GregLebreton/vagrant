@@ -22,21 +22,20 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.define "apach" do |apach|
     apach.vm.hostname = "apach.dev"
      # static ip address
-    apach.vm.network :private_network, ip: "192.168.60.1"
+    apach.vm.network :private_network, ip: "192.168.60.2"
     #config.vm.provision "ansible" do |ansible|
       #ansible.playbook = "install_apache_playbook.yml"
       #ansible.playbook= "site.yml"
       #ansible.inventory_path="./inventory"
       #ansible.limit="apach"
-      #end
-      
+      #end      
   end
 
   # 
   config.vm.define "wordpress" do |apach|
     apach.vm.hostname = "wordpress.dev"
      # static ip address
-    apach.vm.network :private_network, ip: "192.168.60.2"
+    apach.vm.network :private_network, ip: "192.168.60.3"
     #config.vm.provision "ansible" do |ansible|
       #ansible.playbook = "install_apache_playbook.yml"
       #ansible.playbook= "site.yml"
@@ -49,7 +48,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.define "database" do |database|
     database.vm.hostname = "database.dev"
     # static ip address
-    database.vm.network :private_network, ip: "192.168.60.3"
+    database.vm.network :private_network, ip: "192.168.60.4"
   #julconfig.vm.provision "ansible" do |ansible|
     #ansible.playbook = "install_mariadb_playbook.yml"
     #ansible.playbook= "site.yml"
