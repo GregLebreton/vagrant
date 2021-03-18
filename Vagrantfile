@@ -12,7 +12,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   # Nginx server
-  config.vm.define "nginxserver" do |apach|
+  config.vm.define "nginxserver" do |nginx|
     apach.vm.hostname = "nginx.dev"
      # static ip address
     apach.vm.network :private_network, ip: "192.168.60.2"     
