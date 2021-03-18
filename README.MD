@@ -1,4 +1,4 @@
-                                   ### VAGRANT ###
+                                      ### VAGRANT ###
                                           
   
  prérequis: 
