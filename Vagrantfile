@@ -19,7 +19,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   # Wordpress
-  config.vm.define "wordpress" do |apach|
+  config.vm.define "wordpress" do |wordpress|
     apach.vm.hostname = "wordpress.dev"
      # static ip address
     apach.vm.network :private_network, ip: "192.168.60.3"    
