@@ -71,7 +71,7 @@ providers de Vagrant:
 ```
 Copier le fichier "version_6_1.rb" dans les dossier des drivers de VB:
 ```
-      $ cp version_6_1.rb /opt/vagrant/embedded/gems/2.2.6/gems/vagrant-2.2.6/plugins/providers/virtualbox/driver/
+      $ cp kernel_5.10/version_6_1.rb /opt/vagrant/embedded/gems/2.2.6/gems/vagrant-2.2.6/plugins/providers/virtualbox/driver/
 
 
       $ nano /opt/vagrant/embedded/gems/2.2.6/gems/vagrant-2.2.6/plugins/providers/virtualbox/plugin.rb
