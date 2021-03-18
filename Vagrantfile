@@ -13,16 +13,16 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Nginx server
   config.vm.define "nginxserver" do |nginx|
-    apach.vm.hostname = "nginx.dev"
+    nginx.vm.hostname = "nginx.dev"
      # static ip address
-    apach.vm.network :private_network, ip: "192.168.60.2"     
+    nginx.vm.network :private_network, ip: "192.168.60.2"     
   end
 
   # Wordpress
   config.vm.define "wordpress" do |wordpress|
-    apach.vm.hostname = "wordpress.dev"
+    wordpress.vm.hostname = "wordpress.dev"
      # static ip address
-    apach.vm.network :private_network, ip: "192.168.60.3"    
+    wordpress.vm.network :private_network, ip: "192.168.60.3"    
   end
 
   # MariaDB server
